@@ -92,7 +92,7 @@
     <!--########################START HERE#########################-->
 
     <!-- FLEX ROW & FLEX ITEMS -->
-    <div class="row-hl">
+    <div class="d-flex flex-row row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -101,7 +101,7 @@
     <br><br>
 
     <!-- FLEX ROW REVERSE -->
-    <div class="row-hl">
+    <div class="d-flex flex-row-reverse row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -110,7 +110,7 @@
     <br><br>
 
     <!-- JUSTIFY CONTENT -->
-    <div class="row-hl">
+    <div class="d-flex flex-row justify-content-start row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -118,7 +118,7 @@
 
     <br><br>
 
-    <div class="row-hl">
+    <div class="d-flex flex-row justify-content-center row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -126,7 +126,7 @@
 
     <br><br>
 
-    <div class="row-hl">
+  <div class="d-flex flex-row justify-content-end row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -134,7 +134,7 @@
 
     <br><br>
 
-    <div class="row-hl">
+  <div class="d-flex flex-row justify-content-around row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -142,7 +142,7 @@
 
     <br><br>
 
-    <div class="row-hl">
+    <div class="d-flex flex-row justify-content-between row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -151,7 +151,7 @@
     <br><br>
 
     <!-- FLEX CONTAINER / FLEX COLUMN -->
-    <div class="row-hl">
+    <div class="d-fles flex-column row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -159,7 +159,16 @@
 
     <br><br>
 
-    <div class="row-hl">
+    <div class="d-flex flex-column-reverse row-hl">
+      <div class="p-4 item-hl">Flex Item reverse</div>
+      <div class="p-4 item-hl">Flex Item reverse</div>
+      <div class="p-4 item-hl">Flex Item reverse</div>
+    </div>
+
+    <br><br>
+
+    <!-- VERTICAL ALIGN ITEMS -->
+    <div class="row-hl d-flex align-items-start">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -168,7 +177,7 @@
     <br><br>
 
     <!-- VERTICAL ALIGN ITEMS -->
-    <div class="row-hl">
+    <div class="row-hl d-flex align-items-center">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -177,7 +186,7 @@
     <br><br>
 
     <!-- VERTICAL ALIGN ITEMS -->
-    <div class="row-hl">
+    <div class="row-hl d-flex align-items-end">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -186,7 +195,7 @@
     <br><br>
 
     <!-- VERTICAL ALIGN ITEMS -->
-    <div class="row-hl">
+    <div class="row-hl d-flex align-items-baseline">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -195,16 +204,7 @@
     <br><br>
 
     <!-- VERTICAL ALIGN ITEMS -->
-    <div class="row-hl">
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-    </div>
-
-    <br><br>
-
-    <!-- VERTICAL ALIGN ITEMS -->
-    <div class="row-hl">
+    <div class="row-hl d-flex align-items-stretch">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -213,21 +213,23 @@
     <br><br>
 
     <!-- RESPONSIVE VERTICAL ALIGN -->
-    <div class="row-hl">
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
+    <div class="row-hl d-flex flex-row">
+      <div class="p-4 align-self-md-start item-hl">Flex Item resp</div>
+      <div class="p-4  align-self-md-center item-hl">Flex Item resp</div>
+      <div class="p-4  align-self-md-end item-hl">Flex Item resp</div>
+      <div class="p-4  align-self-md-baseline item-hl">Flex Item resp</div>
+      <div class="p-4  align-self-md-stretch item-hl">Flex Item resp</div>
     </div>
 
     <br><br>
 
     <!-- ALIGN SELF -->
-    <div class="row-hl">
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
+    <div class="row-hl d-flex flex-row">
+      <div class="p-4 align-self-start item-hl">Flex Item</div>
+      <div class="p-4  align-self-center item-hl">Flex Item</div>
+      <div class="p-4  align-self-end item-hl">Flex Item</div>
+      <div class="p-4  align-self-baseline item-hl">Flex Item</div>
+      <div class="p-4  align-self-stretch item-hl">Flex Item</div>
     </div>
 
     <br><br>
