@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Bootstrap Sandbox</title>
+  <style>
+
+  .pricing-table td{
+    border-top:0;
+  }
+
+  .pricing-header{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .pricing-price{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .pricing-minor-row{
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+  }
+
+  .pricing-minor-row-text{
+    margin-left: 5px;
+  }
+
+  .pricing-button-row{
+    background-color: #ddd;
+  }
+
+  .pricing-table-red
+  {
+    border-top: 5px solid  #a93226 ;
+  }
+  .icon-red{
+    color: #a93226;
+  }
+  .pricing-header-red{
+    background-color: #cb4335;
+  }
+  .pricing-price-red,
+  .btn-red{
+    background-color:  #e74c3c ;
+    color: #fff;
+  }
+
+  .pricing-table-blue
+  {
+    border-top: 5px solid   #1f618d  ;
+  }
+  .icon-blue{
+    color: #1f618d ;
+  }
+  .pricing-header-blue{
+    background-color:  #2980b9 ;
+  }
+  .pricing-price-blue,
+  .btn-blue{
+    background-color:  #5499c7 ;
+    color: #fff;
+  }
+
+  .pricing-table-green
+  {
+    border-top: 5px solid  #196f3d ;
+  }
+  .icon-green{
+    color:#196f3d;
+  }
+  .pricing-header-green{
+    background-color:   #229954 ;
+  }
+  .pricing-price-green,
+  .btn-green{
+    background-color:  #27ae60 ;
+    color: #fff;
+  }
+
+    .pricing-table-gray
+    {
+      border-top: 5px solid   #5f6a6a ;
+    }
+    .icon-gray{
+      color:  #99a3a4 ;
+    }
+    .pricing-header-gray{
+      background-color:   #707b7c;
+    }
+    .pricing-price-gray,
+    .btn-gray{
+      background-color: #99a3a4 ;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+<header>
+</header>
+
+<div class="container text-center p-5">
+  <div class="row">
+    <div class="col-sm-3">
+      <table class="table pricing-table pricing-table-red">
+        <tr class="pricing-row">
+          <td class="pricing-header-red"><p class="pricing-header">PRO PLAN</p></td>
+        </tr>
+        <tr class="pricing-row">
+          <td class="pricing-price-red"><p class="pricing-price">10$/MONTH</p></td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-red" aria-hidden="true"></i><span class="pricing-minor-row-text">Personal use</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-red" aria-hidden="true"></i><span class="pricing-minor-row-text">Unlimited projects</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-red" aria-hidden="true"></i><span class="pricing-minor-row-text">24/7 support</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-button-row">
+            <button class="btn btn-danger btn-red btn-block">BUY NOW</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm-3">
+      <table class="table pricing-table pricing-table-blue">
+        <tr class="pricing-row">
+          <td class="pricing-header-blue"><p class="pricing-header">PRO PLAN</p></td>
+        </tr>
+        <tr class="pricing-row">
+          <td class="pricing-price-blue"><p class="pricing-price">10$/MONTH</p></td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-blue" aria-hidden="true"></i><span class="pricing-minor-row-text">Personal use</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-blue" aria-hidden="true"></i><span class="pricing-minor-row-text">Unlimited projects</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-blue" aria-hidden="true"></i><span class="pricing-minor-row-text">24/7 support</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-button-row">
+            <button class="btn btn-primary btn-blue btn-block">BUY NOW</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm-3">
+      <table class="table pricing-table pricing-table-green">
+        <tr class="pricing-row">
+          <td class="pricing-header-green"><p class="pricing-header">PRO PLAN</p></td>
+        </tr>
+        <tr class="pricing-row">
+          <td class="pricing-price-green"><p class="pricing-price">10$/MONTH</p></td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-green" aria-hidden="true"></i><span class="pricing-minor-row-text">Personal use</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-green" aria-hidden="true"></i><span class="pricing-minor-row-text">Unlimited projects</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-green" aria-hidden="true"></i><span class="pricing-minor-row-text">24/7 support</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-button-row">
+            <button class="btn btn-success btn-green btn-block">BUY NOW</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm-3">
+      <table class="table pricing-table pricing-table-gray">
+        <tr class="pricing-row">
+          <td class="pricing-header-gray"><p class="pricing-header">PRO PLAN</p></td>
+        </tr>
+        <tr class="pricing-row">
+          <td class="pricing-price-gray"><p class="pricing-price">10$/MONTH</p></td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Personal use</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Unlimited projects</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">24/7 support</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-button-row">
+            <button class="btn btn-secondary btn-gray btn-block">BUY NOW</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <table class="table pricing-table pricing-table-gray">
+        <tr class="pricing-row">
+          <td class="pricing-header-gray"><p class="pricing-header">PRO PLAN</p></td>
+        </tr>
+        <tr class="pricing-row">
+          <td class="pricing-price-gray"><p class="pricing-price">10$/MONTH</p></td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Personal use</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Unlimited projects</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">24/7 support</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-button-row">
+            <button class="btn btn-secondary btn-gray btn-block">BUY NOW</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm-3">
+      <table class="table pricing-table pricing-table-gray">
+        <tr class="pricing-row">
+          <td class="pricing-header-gray"><p class="pricing-header">PRO PLAN</p></td>
+        </tr>
+        <tr class="pricing-row">
+          <td class="pricing-price-gray"><p class="pricing-price">10$/MONTH</p></td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Personal use</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Unlimited projects</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">24/7 support</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-button-row">
+            <button class="btn btn-secondary btn-gray btn-block">BUY NOW</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm-3">
+      <table class="table pricing-table pricing-table-gray">
+        <tr class="pricing-row">
+          <td class="pricing-header-gray"><p class="pricing-header">PRO PLAN</p></td>
+        </tr>
+        <tr class="pricing-row">
+          <td class="pricing-price-gray"><p class="pricing-price">10$/MONTH</p></td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Personal use</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Unlimited projects</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">24/7 support</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-button-row">
+            <button class="btn btn-secondary btn-gray btn-block">BUY NOW</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm-3">
+      <table class="table pricing-table pricing-table-gray">
+        <tr class="pricing-row">
+          <td class="pricing-header-gray"><p class="pricing-header">PRO PLAN</p></td>
+        </tr>
+        <tr class="pricing-row">
+          <td class="pricing-price-gray"><p class="pricing-price">10$/MONTH</p></td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Personal use</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">Unlimited projects</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-minor-row"><i class="fa fa-check icon-gray" aria-hidden="true"></i><span class="pricing-minor-row-text">24/7 support</span?</td>
+        </tr>
+        <tr>
+          <td class="pricing-button-row">
+            <button class="btn btn-secondary btn-gray btn-block">BUY NOW</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:500px;"></div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script>
+
+$(document).ready(function(){
+});
+</script>
+</body>
+</html>

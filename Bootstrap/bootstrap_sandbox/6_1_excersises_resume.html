@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Bootstrap Sandbox</title>
+  <style>
+  .img-circle {
+    border-radius: 50%;
+  }
+
+  .resume-header,
+  .resume-box {
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+
+  .resume-box {
+    border: 1px solid #ddd;
+    border-left: 4px solid #d62d20;
+    width: 100%;
+  }
+
+  .resume-box,
+  .resume-header
+  {
+    border-radius: 10px;
+  }
+
+  .resume-box-content-header
+  {
+    font-size: 20px;
+    color:  #d62d20;
+  }
+
+  .resume-box-content-header,
+  .resume-box-content
+  {
+    padding-left: 10px;
+  }
+
+  .progress-bar
+  {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 7px;
+    height: 30px;
+    vertical-align: middle;
+  }
+
+  .progress-box{
+    margin: 10px;
+  }
+
+  table td.td-text{
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 10px;
+    border-top: 2px solid #ddd;
+  }
+  table td.td-metric{
+    border: 2px solid #ddd;
+    border-top: 0px !important;
+    }
+  </style>
+</head>
+<body>
+<header>
+</header>
+
+<div class="container text-center mb-3" style="border-bottom: 1px solid #ddd">
+  <h1>Resume of John Doe</h1>
+  <div class="mb-1">
+    <span><i class="fa fa-clock-o" aria-hidden="true"></i><span class="ml-1 text-muted">Last updated on: Sunday, October 05, 2017</span></span>
+  </div>
+</div>
+<div class="container mt-3">
+  <div class="row bg-light">
+    <div class="resume-header">
+      <div class="row">
+      <div class="col-sm-4">
+         <img src="http://placehold.it/300x300" class="img-circle m-3" alt="Cinque Terre">
+      </div>
+      <div class="col-sm-8">
+        <div class="list-group text-left mt-3">
+          <div class="list-group-item">John Doe</div>
+          <div class="list-group-item">Software Engineer</div>
+          <div class="list-group-item">Google Inc.</div>
+          <div class="list-group-item"><i class="fa fa-phone" aria-hidden="true"></i><span class="ml-1">000-000-000</span></div>
+          <div class="list-group-item"><i class="fa fa-envelope" aria-hidden="true"><span class="ml-1">example@mail.com</span></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 mb-3">
+          <div class="row justify-content-center w50">
+              <div class="col-6 d-inline">
+                  <button class="btn btn-danger p-1" style="background-color: #d62d20"><i class="fa fa-google" aria-hidden="true" style="color: white"></i></button>
+                  <button class="btn p-1" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true" style="color: white"></i></button>
+                  <button class="btn p-1" style="background-color: #00aced"><i class="fa fa-twitter" aria-hidden="true" style="color: white"></i></button>
+                  <button class="btn btn-primary p-1" style="background-color: #0077B5"><i class="fa fa-linkedin" aria-hidden="true" style="color: white"></i></button>
+                  <button class="btn btn-dark p-1" style="background-color: #333"><i class="fa fa-github" aria-hidden="true" style="color: white"></i></button>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+</div>
+  <div class="row bg-white">
+    <div class="resume-box">
+      <div class="resume-box-content-header">Summary</div>
+      <div class="resume-box-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo delectus dignissimos, velit officia molestias a, veritatis minus ad nemo, incidunt facilis accusamus ex, neque voluptatem similique nobis animi explicabo? Quibusdam.</p>
+      </div>
+    </div>
+    <div class="resume-box">
+      <div class="resume-box-content-header">Research interests</div>
+      <div class="resume-box-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo delectus dignissimos, velit officia molestias a, veritatis minus ad nemo, incidunt facilis accusamus ex, neque voluptatem similique nobis animi explicabo? Quibusdam.</p>
+      </div>
+    </div>
+    <div class="resume-box">
+      <div class="resume-box-content-header">Prior experiences</div>
+      <div class="resume-box-content">
+        <div class="list-group m-3">
+          <div class="list-group-item">
+            <h5>Software Engineer at Twitter</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi accusamus, incidunt placeat! Fugit, culpa asperiores facilis, architecto fugiat dignissimos quibusdam quos odit odio repellat, labore recusandae porro unde sed. Ipsa, odio quibusdam quasi repellat, rerum delectus deserunt doloremque quo ratione.<p>
+          </div>
+          <div class="list-group-item">
+            <h5>Software Engineer at Facebook</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptatibus quisquam sunt nostrum perspiciatis voluptas asperiores molestias nulla harum adipisci repudiandae at dolorum doloremque dignissimos, quasi aspernatur a eius expedita modi provident et quae. Modi minima id, nesciunt, ex maxime doloremque quisquam earum deleniti quibusdam officia, voluptatem corporis! Accusantium laboriosam culpa omnis, labore numquam adipisci enim ab voluptates temporibus alias odio eveniet, vero quae magni obcaecati blanditiis dignissimos? Animi labore, cum tempora, ea dignissimos praesentium dolores velit quod quaerat eius laborum! Ipsa impedit consequatur fugit porro ea atque dignissimos. Officia nobis, veniam. Totam quasi autem, quibusdam placeat nulla, repellat explicabo?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="resume-box">
+      <div class="resume-box-content-header">Key expertise</div>
+      <div class="resume-box-content">
+        <div class="list-group">
+          <div class="list-group-item">Lorem ipsum dolor sit amet.</div>
+          <div class="list-group-item">Lorem ipsum dolor sit amet.</div>
+          <div class="list-group-item">Lorem ipsum dolor sit amet.</div>
+          <div class="list-group-item">Lorem ipsum dolor sit amet.</div>
+          <div class="list-group-item">Lorem ipsum dolor sit amet.</div>
+          <div class="list-group-item">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+    </div>
+    <div class="resume-box">
+      <div class="resume-box-content-header">Language and platform skills</div>
+      <div class="resume-box-content">
+        <div class="m-2 p-2" style="border: 1px solid #ddd; border-radius: 5px">
+          <div class="progress-box">
+            <div class="progress">
+                <div class="progress-bar bg-success text-left" style="width: 75%;"><span>Java</span></div>
+            </div>
+          </div>
+          <div class="progress-box">
+            <div class="progress">
+                <div class="progress-bar bg-success text-left" style="width: 65%;"><span>C#</span></div>
+            </div>
+          </div>
+          <div class="progress-box">
+            <div class="progress">
+                <div class="progress-bar bg-success text-left" style="width: 55%;"><span>Python</span></div>
+            </div>
+          </div>
+          <div class="progress-box">
+            <div class="progress">
+                <div class="progress-bar bg-warning text-left" style="width: 45%;"><span>C++</span></div>
+            </div>
+          </div>
+          <div class="progress-box">
+            <div class="progress">
+                <div class="progress-bar bg-warning text-left" style="width: 40%;"><span>JavaScript</span></div>
+            </div>
+          </div>
+          <div class="progress-box">
+            <div class="progress">
+                <div class="progress-bar bg-warning text-left" style="width: 35%;"><span>TypeScript</span></div>
+            </div>
+          </div>
+          <div class="progress-box">
+            <div class="progress">
+                <div class="progress-bar bg-danger text-left" style="width: 10%;"><span>Go</span></div>
+            </div>
+          </div>
+          <div class="progress-box">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td class="td-metric col-sm-4"></td>
+                <td class="td-metric col-sm-3"></td>
+                <td class="td-metric col-sm-3"></td>
+                <td class="td-metric"></td>
+              </tr>
+              <tr>
+                <td class="td-text col-sm-4">I suck</td>
+                <td class="td-text col-sm-3">I know little of</td>
+                <td class="td-text col-sm-3">I'm good</td>
+                <td class="td-text">I'm an expert</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="resume-box">
+      <div class="resume-box-content-header">Education</div>
+      <div class="resume-box-content">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th class="col-sm-6">Degree</th>
+              <th>Graduation year</th>
+              <th>CGPA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Masters in Computer Science and Engineering</td>
+              <td>2014</td>
+              <td>4.5</td>
+            </tr>
+            <tr>
+              <td>BSc. in Computer Science and Engineering</td>
+              <td>2012</td>
+              <td>4.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div>
+</div>
+
+<div style="margin-top:500px;"></div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script>
+
+$(document).ready(function(){
+});
+</script>
+</body>
+</html>
